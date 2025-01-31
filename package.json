@@ -21,18 +21,17 @@
     "ts-types": "tsc --build",
     "test": "jest"
   },
-  "author": "My Name",
+  "author": "Nihad Mammadli",
   "license": "Apache-2.0",
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "match-sorter": "^6.3.3"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@airbnb/config-babel": "^2.0.1",
     "@superset-ui/chart-controls": "*",
-    "@superset-ui/core": "*"
+    "@superset-ui/core": "*",
+    "react": "^16.13.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
